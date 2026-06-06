@@ -31,14 +31,14 @@ for d in [SCREENSHOTS_DIR, PAGES_DIR, CAPABILITIES_DIR]:
     d.mkdir(parents=True, exist_ok=True)
 
 # -- config ----------------------------------------------------------------
-PLATFORM_URL = "https://zono.digital"  # CHANGE THIS to your platform URL
+PLATFORM_URL = "https://app-qa.zotok.ai"  # platform URL
 SESSION_FILE = BASE_DIR / ".crawler_session.json"
 
 MODULES = [
-    {"name": "journey_builder", "label": "Journey Builder", "url_path": None},
-    {"name": "campaigns",       "label": "Campaigns",       "url_path": None},
-    {"name": "segments",        "label": "Segments",        "url_path": None},
-    {"name": "messaging",       "label": "Messaging",       "url_path": None},
+    {"name": "journey_builder", "label": "Journey Builder", "url_path": "journey-builder"},
+    {"name": "campaigns",       "label": "Campaigns",       "url_path": "campaigns"},
+    {"name": "segments",        "label": "Segments",        "url_path": "segments"},
+    {"name": "messaging",       "label": "Messaging",       "url_path": "messaging"},
 ]
 
 
