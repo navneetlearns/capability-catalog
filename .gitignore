@@ -1,0 +1,6 @@
+screenshots/
+pages/
+__pycache__/
+*.pyc
+.env
+.cache/
