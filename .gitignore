@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .env
 .cache/
+.crawler_session.json
